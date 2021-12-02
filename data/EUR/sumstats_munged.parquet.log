@@ -1,0 +1,102 @@
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.82 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.99 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.81 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.63 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 2.16 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.59 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 2.02 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.57 seconds
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.71 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.59 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
+[INFO]  Reading sumstats file...
+[INFO]  Done in 1.58 seconds
+[INFO]  194694 SNPs are in the sumstats file
+[INFO]  Removing 11022 SNPs with INFO<0.60
+[INFO]  Removing 32676 SNPs with MAF<0.001
+[INFO]  Removing 57 HLA SNPs
+[INFO]  151691 SNPs with sumstats remained after all filtering stages
+[INFO]  Effective sample size is 382406
+[INFO]  Saving munged sumstats of 151691 SNPs to example_data/sumstats_munged.parquet
+[INFO]  Done
