@@ -1,0 +1,133 @@
+[INFO]  Loading sumstats file...
+[INFO]  Loading sumstats file...
+[INFO]  Loading sumstats file...
+[INFO]  NumExpr defaulting to 2 threads.
+[INFO]  Loaded sumstats for 12037 SNPs in 0.57 seconds
+[WARNING]  R[write to console]: Warning message:
+
+[WARNING]  R[write to console]: In (function (package, help, pos = 2, lib.loc = NULL, character.only = FALSE,  :
+[WARNING]  R[write to console]: 
+ 
+[WARNING]  R[write to console]:  library ‘R_packages/’ contains no packages
+
+[INFO]  Loading sumstats file...
+[INFO]  NumExpr defaulting to 2 threads.
+[INFO]  Loaded sumstats for 12037 SNPs in 0.43 seconds
+[WARNING]  R[write to console]: Warning message:
+
+[WARNING]  R[write to console]: In (function (package, help, pos = 2, lib.loc = NULL, character.only = FALSE,  :
+[WARNING]  R[write to console]: 
+ 
+[WARNING]  R[write to console]:  library ‘R_packages/’ contains no packages
+
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.43 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/AFR/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.31 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.02 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed SuSiE fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Done in 0.20 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.38 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/AFR/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.09 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.01 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed SuSiE fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Done in 0.06 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.38 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/AFR/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.13 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.02 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed SuSiE fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Done in 0.07 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.39 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/AFR/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.08 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.01 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 0.05 seconds
+[ERROR]  Error : Cannot specify 6 causal SNPs using '--n-causal-snps' if there are 5 SNPs in the region!
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.41 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/AFR/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.11 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.03 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 0.04 seconds
+[INFO]  Done in 0.10 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.38 seconds
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.39 seconds
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.90 seconds
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.39 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/test_data/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.12 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.02 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 0.03 seconds
+[INFO]  Done in 0.09 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.39 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/test_data/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.11 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.01 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 0.03 seconds
+[INFO]  Done in 0.09 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz
+[INFO]  Loading sumstats file...
+[INFO]  Loaded sumstats for 12037 SNPs in 0.40 seconds
+[INFO]  Computing LD from plink fileset /home/sadeeq/pGWAS/data/test_data/reference.1 chromosome 1 region 46000001-49000001
+[INFO]  Found 5 SNPs in target region. Computing LD in 1 chunks...
+[INFO]  Done in 0.11 seconds
+[INFO]  Saving LD file /home/sadeeq/pGWAS/data/output/LD_cache/reference.1.1.46000001.49000001.npz
+[INFO]  Done in 0.01 seconds
+[WARNING]  135 variants with sumstats were not found in the LD file and will be omitted (please note that this may lead to false positives if the omitted SNPs are causal!)
+[INFO]  Flipping the effect-sign of 5 SNPs that are flipped compared to the LD panel
+[INFO]  Starting non-functionally informed FINEMAP fine-mapping for chromosome 1 BP 46000001-49000001 (5 SNPs)
+[INFO]  Running FINEMAP...
+[INFO]  done in 0.03 seconds
+[INFO]  Done in 0.10 seconds
+[INFO]  Writing fine-mapping results to /home/sadeeq/pGWAS/data/output/finemap.46000001.49000001.gz

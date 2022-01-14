@@ -1,4 +1,4 @@
-name: polyfun
+name: pGWAS
 channels:
   - conda-forge
   - defaults
@@ -6,7 +6,7 @@ dependencies:
   - tqdm
   - r-wavethresh
   - pyarrow
-  - python=3.6
+  - python=3.8
   - scikit-learn
   - r-lattice
   - r-ckmeans.1d.dp

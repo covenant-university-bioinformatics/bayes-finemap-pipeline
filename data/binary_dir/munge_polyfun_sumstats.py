@@ -21,7 +21,7 @@ def find_df_column(df, strings_to_find, allow_missing=False):
     if isinstance(strings_to_find, str):
         strings_to_find = [strings_to_find]
         
-    is_relevant_col = np.zeros(df.shape[1], dtype=np.bool)
+    is_relevant_col = np.zeros(df.shape[1], dtype=bool)
     for str_to_find in strings_to_find:
         is_relevant_col = is_relevant_col | (df.columns.str.upper() == str_to_find.upper())
     if np.sum(is_relevant_col)==0:
@@ -110,7 +110,7 @@ def compute_z(df_sumstats):
 def filter_sumstats(df_sumstats, min_info_score=None, min_maf=None, remove_strand_ambig=False, keep_hla=False):
 
     logging.info('%d SNPs are in the sumstats file'%(df_sumstats.shape[0]))
-    is_good_snp = np.ones(df_sumstats.shape[0], dtype=np.bool)
+    is_good_snp = np.ones(df_sumstats.shape[0], dtype=bool)
     
     #remove 'bad' BOLT-LMM SNPs
     if 'CHISQ_BOLT_LMM' in df_sumstats.columns:

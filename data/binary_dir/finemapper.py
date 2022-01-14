@@ -445,7 +445,7 @@ class Fine_Mapping(object):
         df_bim.rename(columns={'snp':'SNP', 'pos':'BP', 'chrom':'CHR', 'a0':'A2', 'a1':'A1'}, inplace=True)
         df_bim['A1'] = df_bim['A1'].astype('str')
         df_bim['A2'] = df_bim['A2'].astype('str')
-        df_bim['CHR'] = df_bim['CHR'].astype(np.int)
+        df_bim['CHR'] = df_bim['CHR'].astype(int)
         del df_bim['i']
         del df_bim['cm']
         bed = bed.T
@@ -462,10 +462,10 @@ class Fine_Mapping(object):
             mem_limit = 1
         else:
             mem_limit = self.memory
-        chunk_size = np.int((np.float(mem_limit) * 0.8) / bed.shape[0] / 4 * (2**30))
+        chunk_size = int((float(mem_limit) * 0.8) / bed.shape[0] / 4 * (2**30))
         if chunk_size==0: chunk_size=1
         if chunk_size > bed.shape[1]: chunk_size = bed.shape[1]
-        num_chunks = np.int(np.ceil(bed.shape[1] / chunk_size))
+        num_chunks = int(np.ceil(bed.shape[1] / chunk_size))
         if num_chunks>1:
             assert chunk_size * (num_chunks-2) < bed.shape[1]-1
         if chunk_size * (num_chunks-1) >= bed.shape[1]:
@@ -816,7 +816,7 @@ class SUSIE_Wrapper(Fine_Mapping):
         #if type(susie_sets) != self.RNULLType:
         try:
             for set_i, susie_set in enumerate(susie_sets):
-                is_in_set = np.zeros(df_susie.shape[0], dtype=np.bool)
+                is_in_set = np.zeros(df_susie.shape[0], dtype=bool)
                 is_in_set[np.array(susie_set)-1] = True
                 is_in_set[df_susie['CREDIBLE_SET']>0] = False
                 df_susie.loc[is_in_set, 'CREDIBLE_SET'] = set_i+1
