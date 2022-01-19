@@ -9,10 +9,10 @@ This page contains the code of the methods **PolyFun** for functionally-informed
 ## Create an Anaconda environment
 The easiest way to install polyfun is by creating a dedicated environment through the [Anaconda Python distribution](https://www.anaconda.com/download). To do this, please install Anaconda on your machine and then type the following commands:
 ```
-mkdir pGWAS
+mkdir polyfun
 cd PGWAS
 conda env create -f polyfun.yml
-conda activate pGWAS
+conda activate polyfun
 ```
 This will install all the dependencies except for [SuSiE](https://github.com/stephenslab/susieR) and [FINEMAP](http://www.christianbenner.com)
 You can use PolyFun without these packages to compute prior causal probabilities, but you won't be able to apply the actual fine-mapping. Please see installation instructions for these two packages below.
